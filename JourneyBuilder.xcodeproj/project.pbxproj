@@ -11,6 +11,17 @@
 		281A43F429488F2A00761290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A43F329488F2A00761290 /* ContentView.swift */; };
 		281A43F629488F2A00761290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281A43F529488F2A00761290 /* Assets.xcassets */; };
 		281A43F929488F2A00761290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281A43F829488F2A00761290 /* Preview Assets.xcassets */; };
+		281A440029488F4900761290 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A43FF29488F4900761290 /* Model.swift */; };
+		281A440329488FB900761290 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 281A440229488FB900761290 /* OrderedCollections */; };
+		281A44052948953000761290 /* JourneyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A44042948953000761290 /* JourneyBuilder.swift */; };
+		281A44072948953C00761290 /* TopicBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A44062948953C00761290 /* TopicBuilder.swift */; };
+		281A44092948A2A600761290 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A44082948A2A600761290 /* TabNavigationView.swift */; };
+		281A440B2948A2CE00761290 /* CourseSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A440A2948A2CE00761290 /* CourseSignUpView.swift */; };
+		281A440D2948FB2500761290 /* TopicCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A440C2948FB2500761290 /* TopicCreationView.swift */; };
+		281A440F2948FB3300761290 /* TopicCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A440E2948FB3300761290 /* TopicCreationViewModel.swift */; };
+		281A4412294903FF00761290 /* NodeOutlineGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A4411294903FF00761290 /* NodeOutlineGroup.swift */; };
+		281A44142949061000761290 /* RadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A44132949061000761290 /* RadioButtonView.swift */; };
+		281A4418294912CE00761290 /* SignUpSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281A4417294912CE00761290 /* SignUpSheetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,16 @@
 		281A43F329488F2A00761290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		281A43F529488F2A00761290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281A43F829488F2A00761290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		281A43FF29488F4900761290 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		281A44042948953000761290 /* JourneyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyBuilder.swift; sourceTree = "<group>"; };
+		281A44062948953C00761290 /* TopicBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicBuilder.swift; sourceTree = "<group>"; };
+		281A44082948A2A600761290 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
+		281A440A2948A2CE00761290 /* CourseSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSignUpView.swift; sourceTree = "<group>"; };
+		281A440C2948FB2500761290 /* TopicCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCreationView.swift; sourceTree = "<group>"; };
+		281A440E2948FB3300761290 /* TopicCreationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCreationViewModel.swift; sourceTree = "<group>"; };
+		281A4411294903FF00761290 /* NodeOutlineGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeOutlineGroup.swift; sourceTree = "<group>"; };
+		281A44132949061000761290 /* RadioButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonView.swift; sourceTree = "<group>"; };
+		281A4417294912CE00761290 /* SignUpSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSheetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281A440329488FB900761290 /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +74,15 @@
 			isa = PBXGroup;
 			children = (
 				281A43F129488F2A00761290 /* JourneyBuilderApp.swift */,
+				281A44082948A2A600761290 /* TabNavigationView.swift */,
 				281A43F329488F2A00761290 /* ContentView.swift */,
+				281A44042948953000761290 /* JourneyBuilder.swift */,
+				281A44062948953C00761290 /* TopicBuilder.swift */,
+				281A43FF29488F4900761290 /* Model.swift */,
+				281A4411294903FF00761290 /* NodeOutlineGroup.swift */,
+				281A44132949061000761290 /* RadioButtonView.swift */,
+				281A441A294912DA00761290 /* CourseSignUp */,
+				281A44102948FB3B00761290 /* TopicCreation */,
 				281A43F529488F2A00761290 /* Assets.xcassets */,
 				281A43F729488F2A00761290 /* Preview Content */,
 			);
@@ -65,6 +95,24 @@
 				281A43F829488F2A00761290 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		281A44102948FB3B00761290 /* TopicCreation */ = {
+			isa = PBXGroup;
+			children = (
+				281A440C2948FB2500761290 /* TopicCreationView.swift */,
+				281A440E2948FB3300761290 /* TopicCreationViewModel.swift */,
+			);
+			path = TopicCreation;
+			sourceTree = "<group>";
+		};
+		281A441A294912DA00761290 /* CourseSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				281A440A2948A2CE00761290 /* CourseSignUpView.swift */,
+				281A4417294912CE00761290 /* SignUpSheetViewModel.swift */,
+			);
+			path = CourseSignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +131,9 @@
 			dependencies = (
 			);
 			name = JourneyBuilder;
+			packageProductDependencies = (
+				281A440229488FB900761290 /* OrderedCollections */,
+			);
 			productName = JourneyBuilder;
 			productReference = 281A43EE29488F2A00761290 /* JourneyBuilder.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +162,9 @@
 				Base,
 			);
 			mainGroup = 281A43E529488F2A00761290;
+			packageReferences = (
+				281A440129488FB900761290 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 281A43EF29488F2A00761290 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281A440F2948FB3300761290 /* TopicCreationViewModel.swift in Sources */,
+				281A4418294912CE00761290 /* SignUpSheetViewModel.swift in Sources */,
+				281A440029488F4900761290 /* Model.swift in Sources */,
+				281A440D2948FB2500761290 /* TopicCreationView.swift in Sources */,
 				281A43F429488F2A00761290 /* ContentView.swift in Sources */,
+				281A44092948A2A600761290 /* TabNavigationView.swift in Sources */,
+				281A44072948953C00761290 /* TopicBuilder.swift in Sources */,
+				281A4412294903FF00761290 /* NodeOutlineGroup.swift in Sources */,
+				281A440B2948A2CE00761290 /* CourseSignUpView.swift in Sources */,
+				281A44052948953000761290 /* JourneyBuilder.swift in Sources */,
+				281A44142949061000761290 /* RadioButtonView.swift in Sources */,
 				281A43F229488F2A00761290 /* JourneyBuilderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		281A440129488FB900761290 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		281A440229488FB900761290 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 281A440129488FB900761290 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 281A43E629488F2A00761290 /* Project object */;
 }

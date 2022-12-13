@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct JourneyBuilderApp: App {
+    
+    @StateObject var model = MockModel() as Model
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabNavigationView()
+                .environmentObject(model)
         }
     }
 }
